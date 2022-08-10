@@ -6,7 +6,7 @@ const Content = () => {
         <div className="content m-5">
             <Row className="justify-content-md-center">
                 <Link to="/"><img
-                    src="https://images2.vudu.com/assets/row/banner/191893-1305"
+                    src="../image/content.png"
                     alt="content-section"
                 /></Link>
             </Row>
