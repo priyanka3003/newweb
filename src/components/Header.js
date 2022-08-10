@@ -16,9 +16,11 @@ const Header = () => {
       <Navbar>
         <Container fluid>
           <Nav className="justify-content-center" activeKey="/home">
-            <Logo />
+            {/* <Logo /> */}
             <span>
-              
+              <Nav.Link href="/">
+                <p className="text-white">Chahat's Theater</p>
+              </Nav.Link>
             </span>
             <Row>
               <Col>
@@ -46,12 +48,12 @@ const Header = () => {
                   <p className="text-white">Login</p>
                 </Nav.Link>
               </Col>
-              
-//                   <FormControl type="text" placeholder="Search" />
-//                   <Button type="submit" variant="outline-light">
-//                    <i className="bi bi-search"></i>
             </Row>
           </Nav>
+          <Form inline>
+            <FormControl type="text" placeholder="Search" />
+            <Button type="submit" variant="outline-light">
+              <i className="bi bi-search"></i>
             </Button>
           </Form>
         </Container>
