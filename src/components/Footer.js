@@ -8,9 +8,7 @@ const Footer = () => {
         <thead>
           <tr>
             <th>Watch</th>
-            <th>My Account</th>
             <th>Features</th>
-            <th>Help</th>
           </tr>
         </thead>
         <tbody>
@@ -18,11 +16,6 @@ const Footer = () => {
             <td>
               <Link to="/movies" className="text-dark">
                 Movies
-              </Link>
-            </td>
-            <td>
-              <Link to="/myAccount" className="text-dark">
-                Account
               </Link>
             </td>
             <td>
