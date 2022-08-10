@@ -1,16 +1,17 @@
-import React from 'react'
-import ReactRoundedImage from "react-rounded-image";
+import { Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-
-
-const Contents = (props) => {
+const Content = () => {
     return (
-        <div className="each-container">
-            
-            
-            <img src={props.image} id="rounded" className="col-4"/>
+        <div className="content m-5">
+            <Row className="justify-content-md-center">
+                <Link to="/"><img
+                    src="https://images2.vudu.com/assets/row/banner/191893-1305"
+                    alt="content-section"
+                /></Link>
+            </Row>
         </div>
-    )
+    );
 }
 
-export default Contents
+export default Content;
