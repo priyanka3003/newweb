@@ -8,6 +8,8 @@ const Content = () => {
                 <Link to="/"><img
                     src="https://i.redd.it/oldnxqjabms31.png"
                     alt="content-section"
+                    width={1000}
+                    height={300}
                 /></Link>
             </Row>
         </div>
