@@ -17,11 +17,7 @@ const Header = () => {
         <Container fluid>
           <Nav className="justify-content-center" activeKey="/home">
             {/* <Logo /> */}
-            <span>
-              <Nav.Link href="/">
-                <p className="text-white">Chahat's Theater</p>
-              </Nav.Link>
-            </span>
+            
             <Row>
               <Col>
                 <Nav.Link href="/">
