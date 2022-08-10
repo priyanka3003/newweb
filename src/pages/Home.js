@@ -1,7 +1,7 @@
 import Hero from "../components/Hero";
 import FeaturedMovies from "../components/FeaturedMovies";
 import FeaturedTV from "../components/FeaturedTV";
-import Content from "../components/Content";
+import ContentContainer from "../components/ContentContainer";
 
 const Home = ({ movies, movieIsPending, movieError, tvs, tvsIsPending, tvsError }) => {
 
@@ -14,7 +14,7 @@ const Home = ({ movies, movieIsPending, movieError, tvs, tvsIsPending, tvsError 
             {tvsError && <div>{tvsError}</div>}
             {tvsIsPending && <div>Loading...</div>}
             {tvs && <FeaturedTV tvs={tvs} />}
-            <Content />
+            <ContentContainer />
         </div>
     );
 }
