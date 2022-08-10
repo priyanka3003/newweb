@@ -8,7 +8,7 @@ const Hero = () => {
           <Carousel.Item interval={1000}>
             <img
               className="d-block w-100"
-              src="../image/static/actor1.jpg"
+              src="https://static1.colliderimages.com/wordpress/wp-content/uploads/slice_inception_movie_poster_banner_01.jpg?q=50&fit=contain&w=1500&h=&dpr=1.5"
               alt="First slide"
               width={1000}
               height={400}
