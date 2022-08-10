@@ -23,11 +23,6 @@ const Footer = () => {
                 Lists
               </Link>
             </td>
-            <td>
-              <Link to="/about" className="text-dark">
-                About us
-              </Link>
-            </td>
           </tr>
           <tr>
             <td>
@@ -38,16 +33,6 @@ const Footer = () => {
             <td>
               <Link to="/setting" className="text-dark">
                 Settings
-              </Link>
-            </td>
-            <td>
-              <Link to="/family" className="text-dark">
-                Family
-              </Link>
-            </td>
-            <td>
-              <Link to="/contact" className="text-dark">
-                Contact us
               </Link>
             </td>
           </tr>
