@@ -46,11 +46,10 @@ const Header = () => {
                   <p className="text-white">Login</p>
                 </Nav.Link>
               </Col>
-              <Col>
-                  <FormControl type="text" placeholder="Search" />
-                  <Button type="submit" variant="outline-light">
-                   <i className="bi bi-search"></i>
-              </Col>
+              
+//                   <FormControl type="text" placeholder="Search" />
+//                   <Button type="submit" variant="outline-light">
+//                    <i className="bi bi-search"></i>
             </Row>
           </Nav>
             </Button>
