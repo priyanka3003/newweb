@@ -5,7 +5,7 @@ import useFetch from '../components/useFetch'
 const Detail = ({ movies, tvs }) => {
     const { type, id } = useParams()
     const { data } = useFetch(
-      'https://backendweb.herokuapp.com/detail/' + type + '/' + id,
+      'https://mybackendweb.herokuapp.com/detail/' + type + '/' + id,
     )
   return <div className="detail">{data && <DetailContainer data={data} />}</div>
 }
